@@ -7,63 +7,76 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: hsl(185, 75%, 39%);
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    display: flex;
-}
-
-.bg-superior {
-    width: 800px;
-    height: 750px; 
-    margin-top: -250px;
-    margin-left: -200px;
-    margin-right: -60px;
-}
-
-#card {
-    width: 400px;
-    height: 400px;
-    margin: 170px 90px -70px 0;
-    background-color: whitesmoke;
-    border-radius: 30px;
-    z-index: 10;
-}
-
-.cover-photo {
-    width: 400px;
-    border-radius: 30px 30px 0 0; 
-}
-
-.profile-photo {
-    width: 115px;
-    height: 115px;
-    border: 5px solid whitesmoke;
-    border-radius: 50%;
-    margin: -65px 0 0 141px;
-}
-
-.profile-bio > p {
-    margin: 15px 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.profile-info {
-    border-top: 1px solid hsl(0, 0%, 59%);
-    margin: 40px 0 0 0;
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bg-inferior {
-    width: 800px;
-    height: 750px; 
-    margin-top: 300px;
-    margin-left: -200px;
+@media (max-width: 1440px) {
+    body {
+        background-color: hsl(185, 75%, 39%);
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        display: flex;
+    }
+    
+    .bg-superior {
+        width: 800px;
+        height: 750px; 
+        margin-top: -250px;
+        margin-left: -200px;
+        margin-right: -60px;
+    }
+    
+    #card {
+        width: 400px;
+        height: 430px;
+        margin: 170px 90px -70px 0;
+        background-color: whitesmoke;
+        border-radius: 30px;
+        z-index: 10;
+    }
+    
+    .text-lighter {
+        font-weight: 400;
+        color: hsl(227, 10%, 46%);
+    }
+    
+    .text-smaller {
+        font-size: 12px;
+    }
+    
+    .cover-photo {
+        width: 400px;
+        border-radius: 30px 30px 0 0; 
+    }
+    
+    .profile-photo {
+        width: 115px;
+        height: 115px;
+        border: 5px solid whitesmoke;
+        border-radius: 50%;
+        margin: -65px 0 0 141px;
+    }
+    
+    .profile-bio > p {
+        margin: 15px 0 0 0;
+        text-align: center;
+    }
+    
+    .profile-info {
+        border-top: 1px solid hsl(0, 0%, 59%);
+        margin: 40px 0 0 0;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .profile-info > p {
+        text-align: center;
+    }
+    
+    .bg-inferior {
+        width: 800px;
+        height: 750px; 
+        margin-top: 300px;
+        margin-left: -200px;
+    } 
 }
