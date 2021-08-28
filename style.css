@@ -11,7 +11,7 @@
     body {
         background-color: hsl(185, 75%, 39%);
         font-family: 'Kumbh Sans', sans-serif;
-        font-size: 18px;
+        font-size: 19px;
         font-weight: 700;
         display: flex;
     }
@@ -19,16 +19,16 @@
     .bg-superior {
         width: 800px;
         height: 750px; 
-        margin-top: -250px;
-        margin-left: -200px;
-        margin-right: -60px;
+        margin: -250px -60px 0 -200px;
     }
     
     #card {
         width: 400px;
         height: 430px;
         margin: 170px 90px -70px 0;
-        background-color: whitesmoke;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
         border-radius: 30px;
         z-index: 10;
     }
@@ -39,7 +39,7 @@
     }
     
     .text-smaller {
-        font-size: 12px;
+        font-size: 14px;
     }
     
     .cover-photo {
@@ -74,9 +74,31 @@
     }
     
     .bg-inferior {
-        width: 800px;
-        height: 750px; 
-        margin-top: 300px;
-        margin-left: -200px;
+        margin: 300px 0 0 -180px;
     } 
+}
+
+@media (max-width: 375px) { 
+    .bg-superior {
+        margin: -450px 0 0 -550px;
+    }
+
+    #card {
+        width: 340px;
+        height: 410px;
+        margin: 100px 0 0 -183px;
+        align-items: center;
+    }
+
+    .cover-photo {
+        width: 340px;
+    }
+
+    .profile-photo {
+        margin: -70px 0 0 115px;
+    }
+
+    .bg-inferior {
+        margin: 250px 0 0 -200px;
+    }
 }
