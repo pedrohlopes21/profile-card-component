@@ -19,3 +19,4 @@ Com base no design fornecido, o desafio consiste em desenvolver, para desktop e 
 <h3>Mobile Design</h3>
 
 ![](screenshots/screenshot-mobile.png)
+
