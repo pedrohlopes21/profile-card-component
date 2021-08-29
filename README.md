@@ -10,7 +10,6 @@ Com base no design fornecido, o desafio consiste em desenvolver, para desktop e 
 
 - Pude aperfeiçoar a forma de pensar e escrever um documento HTML.
 - No CSS pude fixar a utilização de shorthands e seletores. Além de explorar e perceber a necessidade de estudar mais sobre como posicionar de maneira mais consciente os elementos na tela.
-<<<<<<< HEAD
 
 <h2>Screenshots</h2>
 
@@ -20,6 +19,3 @@ Com base no design fornecido, o desafio consiste em desenvolver, para desktop e 
 <h3>Mobile Design</h3>
 
 ![](screenshots/screenshot-mobile.png)
-
-=======
->>>>>>> 1147e099a2d9f934accc11ec38292992ea836965
