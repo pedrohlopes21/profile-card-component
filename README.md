@@ -10,12 +10,3 @@ Com base no design fornecido, o desafio consiste em desenvolver, para desktop e 
 
 - Pude aperfeiçoar a forma de pensar e escrever um documento HTML.
 - No CSS pude fixar a utilização de shorthands e seletores. Além de explorar e perceber a necessidade de estudar mais sobre como posicionar de maneira mais consciente os elementos na tela.
-
-<h2>Screenshots</h2>
-
-<h3>Desktop Design</h3>
-![](/home/pedro/workspace/frontend mentor/profile-card-component/Screenshot-desktop.png)
-
-<h3>Mobile Design</h3>
-
-![image-20210828230927502](/home/pedro/.config/Typora/typora-user-images/image-20210828230927502.png)
