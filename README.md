@@ -14,7 +14,7 @@ Com base no design fornecido, o desafio consiste em desenvolver, para desktop e 
 <h2>Screenshots</h2>
 
 <h3>Desktop Design</h3>
-![](screenshots/Screenshot-desktop.png)
+![](screenshots/screenshot-desktop.png)
 
 <h3>Mobile Design</h3>
 
