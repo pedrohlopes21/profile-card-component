@@ -14,8 +14,9 @@ Com base no design fornecido, o desafio consiste em desenvolver, para desktop e 
 <h2>Screenshots</h2>
 
 <h3>Desktop Design</h3>
-![](/home/pedro/workspace/frontend mentor/profile-card-component/Screenshot-desktop.png)
+![](screenshots/Screenshot-desktop.png)
 
 <h3>Mobile Design</h3>
 
-![image-20210828230927502](/home/pedro/.config/Typora/typora-user-images/image-20210828230927502.png)
+![](screenshots/screenshot-mobile.png)
+
